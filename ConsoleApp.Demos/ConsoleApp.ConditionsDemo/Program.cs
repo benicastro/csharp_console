@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-// Prompt for input
+﻿// Prompt for input
 Console.Write("Please enter student's grade: ");
 // Global variable / global scope
 int grade = Convert.ToInt32(Console.ReadLine());
@@ -9,16 +7,18 @@ int grade = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("***************** Simple IF Results **************");
 if (grade > 50)
 {
-    Console.WriteLine("Student has passed");
+    Console.WriteLine("Student has passed.");
 }
 else
 {
-    Console.WriteLine("Student has failed");
-    Console.WriteLine("Please recommend student to student affair's office");
+    Console.WriteLine("Student has failed.");
+    Console.WriteLine("Please recommend student to student affair's office.");
 }
-Console.WriteLine("***************** Simple IF Results End **************");
+Console.WriteLine("***************** Simple IF Results End **********");
+Console.WriteLine();
 
 // Complex If...Else if...statement - Decide to print letter based on grade value
+Console.WriteLine();
 Console.WriteLine("***************** Complex IF..ELSE IF Results **************");
 
 /*
@@ -30,42 +30,46 @@ Console.WriteLine("***************** Complex IF..ELSE IF Results **************"
  */
 if (grade < 0 || grade > 100)
 {
-    Console.WriteLine("Invalid value entered");
+    Console.WriteLine("Invalid value for grade entered!");
 }
 else if (grade < 50)
 {
     Console.WriteLine("Student has failed - F");
 }
-else if (grade >= 50 && grade <= 64)
+else if (grade <= 64)
 {
     Console.WriteLine("C-");
 }
-else if (grade >= 65 && grade <= 74)
+else if (grade <= 74)
 {
     Console.WriteLine("C");
 }
-else if (grade >= 75 && grade <= 84)
+else if (grade <= 84)
 {
     Console.WriteLine("B");
 }
-else if (grade >= 85 && grade <= 100)
+else if (grade <= 100)
 {
     Console.WriteLine("A - Good job");
 }
 int gradeAfterBonus = grade >= 0 && grade <= 100 ? grade + 10 : 0;
 Console.WriteLine($"Grade after bonus: {gradeAfterBonus}");
 
-Console.WriteLine("***************** Complex IF..ELSE IF Results End **************");
+Console.WriteLine("***************** Complex IF..ELSE IF Results End **********");
+Console.WriteLine();
 
 // Ternary operator - Used to assign a value to a variable based on a condition.
+Console.WriteLine();
 Console.WriteLine("***************** Ternary Operator Result  **************");
 
 string passStatus = grade < 50 ? "Fail" : "Pass";
 Console.WriteLine($"Student Status is: {passStatus}");
 
-Console.WriteLine("***************** Ternary Operator Result End **************");
+Console.WriteLine("***************** Ternary Operator Result End ***********");
+Console.WriteLine();
 
 // Switch statements - used to evaluate a value and take an action
+Console.WriteLine();
 Console.WriteLine("***************** Switch Statement Results **************");
 /*
  * Write a program to accept an integer as the day of the wek and print the appropriate message as outlined below. 
@@ -108,10 +112,10 @@ switch (dayOfTheWeek)
         Console.WriteLine("Beach Day!");
         break;
     default:
-        Console.WriteLine("invalid day number entered!!");
+        Console.WriteLine("Invalid day number entered!");
         break;
 }
-Console.WriteLine("***************** Switch Statement Results End **************");
+Console.WriteLine("***************** Switch Statement Results End ***********");
 
 
 
