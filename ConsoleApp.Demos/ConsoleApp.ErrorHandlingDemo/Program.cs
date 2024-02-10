@@ -11,7 +11,7 @@ try
 }
 catch (Exception)
 {
-    Console.WriteLine("Your age value was incorrect, please try again. ");
+    Console.WriteLine("Your input value for age is invalid, please try again.");
     //throw;
 }
 finally
