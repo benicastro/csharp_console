@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.ErrorHandlingDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.StringManipulationDemo", "ConsoleApp.StringManipulationDemo\ConsoleApp.StringManipulationDemo.csproj", "{8AD6B6E4-996B-483E-BAAE-5B351593A7CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.DateTimeDemo", "ConsoleApp.DateTimeDemo\ConsoleApp.DateTimeDemo.csproj", "{3DD28F01-69C3-4417-9027-6D16897E2E4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{8AD6B6E4-996B-483E-BAAE-5B351593A7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AD6B6E4-996B-483E-BAAE-5B351593A7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AD6B6E4-996B-483E-BAAE-5B351593A7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD28F01-69C3-4417-9027-6D16897E2E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD28F01-69C3-4417-9027-6D16897E2E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD28F01-69C3-4417-9027-6D16897E2E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD28F01-69C3-4417-9027-6D16897E2E4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
