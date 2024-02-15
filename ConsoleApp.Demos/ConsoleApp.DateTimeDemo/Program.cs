@@ -12,7 +12,7 @@ var dateOfBirth = new DateTime(1980, 12, 25);
 Console.WriteLine($"My Dob is: {dateOfBirth}");
 
 var exactDateAndTimeOfBirth = new DateTime(1980, 12, 25, 14, 45, 25, DateTimeKind.Local);
-Console.WriteLine($"My Dob is: {exactDateAndTimeOfBirth}");
+Console.WriteLine($"My Birthday is: {exactDateAndTimeOfBirth}");
 
 Console.WriteLine($"Day of Week: {dateOfBirth.DayOfWeek}");
 Console.WriteLine($"Day of Year: {dateOfBirth.DayOfYear}");
@@ -25,7 +25,7 @@ DateTime now = DateTime.Now;
 Console.WriteLine("The Time Now Is: " + now);
 
 // Create a DateTime from a String  
-Console.WriteLine("What is your DOB (MM/dd/yyyy): ");
+Console.WriteLine("What is your date of birth (MM/dd/yyyy): ");
 string dob = Console.ReadLine();
 
 var userDob = DateTime.Parse(dob);
